@@ -10,7 +10,7 @@
 
     <%= render 'layouts/header' %>
 
-    <div class="container padding_top">
+    <div class="container padding_top margin_top">
       <% flash.each do |key, value| %>
           <%= content_tag(:div, value, class: "alert alert-#{key}") %>
       <% end %>
